@@ -206,7 +206,7 @@ public class CurrencyFormatter: CurrencyFormatting {
     }
     
     /// Encapsulated Number formatter
-    let numberFormatter: NumberFormatter
+    public let numberFormatter: NumberFormatter
     
     /// Maximum allowed number of integers
     public var maxIntegers: Int? {
